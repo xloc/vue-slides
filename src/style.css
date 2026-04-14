@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+/* Disables viewport bounce on macOS/iOS. Side effect: also disables bounce in sidebar scroll. */
+html, body {
+  overscroll-behavior: none;
+}
+
