@@ -12,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: github-pages
+  group: pages
   cancel-in-progress: true
 
 jobs:
@@ -34,16 +34,10 @@ jobs:
           node-version: 22
           cache: pnpm
 
-      - name: Configure GitHub Pages
-        id: pages
-        uses: actions/configure-pages@v5
-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
       - name: Build site
-        env:
-          BASE_PATH: ${{ steps.pages.outputs.base_path != '' && format('{0}/', steps.pages.outputs.base_path) || '/' }}
         run: pnpm build
 
       - name: Upload GitHub Pages artifact
