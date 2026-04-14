@@ -5,7 +5,7 @@ import { useLocalStorage } from '@vueuse/core'
 import { useSlidesStore } from './stores/slides'
 import { ViewfinderCircleIcon, ChevronLeftIcon, ChevronRightIcon, Bars3Icon, EyeIcon } from '@heroicons/vue/16/solid'
 
-const topBarPinned = useLocalStorage('html-slides:topbar-pinned', false)
+const topBarPinned = useLocalStorage('topbar-pinned', false)
 
 const store = useSlidesStore()
 const router = useRouter()
