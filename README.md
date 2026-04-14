@@ -1,5 +1,19 @@
-# Vue 3 + TypeScript + Vite
+# html-slides
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Development
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+```bash
+pnpm install
+pnpm dev
+```
+
+## GitHub Pages
+
+This repo publishes to GitHub Pages with GitHub Actions via [.github/workflows/deploy-pages.yml](./.github/workflows/deploy-pages.yml).
+
+One-time repository setup in GitHub:
+
+1. Open `Settings > Pages`.
+2. Set `Source` to `GitHub Actions`.
+
+After that, every push to `main` will build and deploy the site. For project Pages sites, the Vite `base` path is derived automatically from the repository name during the Actions build. Local builds continue to use `/`.
