@@ -60,7 +60,7 @@ onUnmounted(() => window.removeEventListener('keydown', onKeydown))
     </div>
     <main class="flex-1 overflow-auto relative">
       <!-- top bar: hidden by default, appears on hover -->
-      <div class="absolute top-0 inset-x-0 mt-1 flex items-center justify-between transition-opacity"
+      <div class="absolute top-0 inset-x-0 mt-1 flex items-center justify-between transition-opacity z-100"
         :class="topBarPinned ? 'opacity-100' : 'opacity-0 hover:opacity-100'">
         <div class="flex items-center gap-2">
           <button class="p-2 ml-2 hover:bg-stone-100 rounded" @click="store.toggleSidebar()" title="Toggle sidebar">
