@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-labelledby="title desc">
+  <title id="title">电钢琴示意图</title>
+  <desc id="desc">带有黑白琴键、控制面板和 USB MIDI 接口的电钢琴。</desc>
+  <rect x="24" y="38" width="272" height="84" rx="10" fill="#f5f5f4" stroke="#292524" stroke-width="4"/>
+  <rect x="44" y="58" width="60" height="20" rx="3" fill="#d6d3d1" stroke="#292524" stroke-width="3"/>
+  <circle cx="126" cy="68" r="8" fill="#a8a29e" stroke="#292524" stroke-width="3"/>
+  <circle cx="152" cy="68" r="8" fill="#a8a29e" stroke="#292524" stroke-width="3"/>
+  <rect x="244" y="56" width="30" height="18" rx="2" fill="#e7e5e4" stroke="#292524" stroke-width="3"/>
+  <path d="M258 74v14" fill="none" stroke="#292524" stroke-width="4" stroke-linecap="round"/>
+  <rect x="44" y="92" width="232" height="26" fill="#fafafa" stroke="#292524" stroke-width="3"/>
+  <path d="M69 92v26M94 92v26M119 92v26M144 92v26M169 92v26M194 92v26M219 92v26M244 92v26" stroke="#292524" stroke-width="2"/>
+  <rect x="61" y="92" width="14" height="16" fill="#292524"/>
+  <rect x="86" y="92" width="14" height="16" fill="#292524"/>
+  <rect x="136" y="92" width="14" height="16" fill="#292524"/>
+  <rect x="161" y="92" width="14" height="16" fill="#292524"/>
+  <rect x="186" y="92" width="14" height="16" fill="#292524"/>
+  <rect x="236" y="92" width="14" height="16" fill="#292524"/>
+  <path d="M62 122v16M258 122v16" stroke="#292524" stroke-width="4" stroke-linecap="round"/>
+</svg>

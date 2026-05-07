@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-labelledby="title desc">
+  <title id="title">USB 主机示意图</title>
+  <desc id="desc">带有 USB 接口的电脑、平板和手机，表示 USB 主机。</desc>
+  <rect x="44" y="30" width="156" height="94" rx="8" fill="#f5f5f4" stroke="#292524" stroke-width="4"/>
+  <rect x="58" y="44" width="128" height="66" rx="3" fill="#e7e5e4" stroke="#292524" stroke-width="3"/>
+  <path d="M92 138h60M112 124l-8 14M132 124l8 14" stroke="#292524" stroke-width="4" stroke-linecap="round"/>
+  <rect x="212" y="42" width="60" height="86" rx="8" fill="#fafafa" stroke="#292524" stroke-width="4"/>
+  <rect x="222" y="54" width="40" height="56" rx="2" fill="#e7e5e4" stroke="#292524" stroke-width="3"/>
+  <circle cx="242" cy="119" r="3" fill="#292524"/>
+  <rect x="202" y="78" width="20" height="14" rx="2" fill="#f5f5f4" stroke="#292524" stroke-width="3"/>
+  <path d="M202 85h-38" stroke="#292524" stroke-width="4" stroke-linecap="round"/>
+  <path d="M164 85v-14h-15v28h15z" fill="#f5f5f4" stroke="#292524" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M86 70h24M86 84h46M86 98h32" stroke="#78716c" stroke-width="4" stroke-linecap="round"/>
+</svg>
